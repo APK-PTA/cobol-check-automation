@@ -17,6 +17,7 @@ chmod +x cobolcheck
 echo "Made cobolcheck executable"
 # Make script in scripts directory executable
 cd scripts
+echo "Changed to $(pwd)"
 ls -al
 chmod +x linux_gnucobol_run_tests
 echo "Made linux_gnucobol_run_tests executable"
