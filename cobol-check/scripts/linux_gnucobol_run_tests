@@ -7,4 +7,5 @@
 
 cd "$(dirname $1)"
 echo "$(dirname $1)"
+ls -al
 cobc -xj $@
