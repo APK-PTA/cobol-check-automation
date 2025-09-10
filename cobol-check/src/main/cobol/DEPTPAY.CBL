@@ -26,6 +26,7 @@
            COMPUTE DEPT-AVG-SALARY =
                (DEPT-TOTAL-SALARIES / DEPT-NBR-EMPS).
 
+
        DISPLAY-DETAILS.
            DISPLAY "Department Name: " DEPT-NAME.
            DISPLAY "Department Location: " DEPT-LOC.
